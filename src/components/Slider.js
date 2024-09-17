@@ -1,9 +1,10 @@
 'use client'
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { FaAngleLeft, FaAngleRight, FaRegDotCircle } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
+
 const Slider = ({ data }) => {
     const [slideNum, setSlideNum] = useState(0)
     const { title, image, href } = data[slideNum]
@@ -22,7 +23,12 @@ const Slider = ({ data }) => {
             setSlideNum(counter)
         }
     }
-    console.log(slideNum);
+
+    useEffect(() => {
+        const intervalId = setInterval(() => handleSlider(1), 3000);
+        return () => clearInterval(intervalId)
+    }, [slideNum])
+    // setTimeout(handleSlider(1), 2000)
     return (
         <div className="relative">
             <div className="flex justify-center gap-5 items-center min-h-[560px] max-h-[560px] bg-[#f3e8d6]">
