@@ -8,7 +8,8 @@
         "image": "https://i.ibb.co.com/TYFz3VX/arbutus.jpg",
         "isFeatured": false,
         "description": "Rich in vitamin C and antioxidants, helps boost immune function and skin health.",
-        "unit": "1 lb"
+        "unit": "1 lb",
+        "totalSales": 540
     },
     {
         "name": "Blueberries",
@@ -19,7 +20,8 @@
         "image": "https://i.ibb.co.com/YLqvQLG/blueberries.jpg",
         "isFeatured": true,
         "description": "High in antioxidants and vitamins, supports brain health and reduces risk of chronic diseases.",
-        "unit": "6 oz"
+        "unit": "6 oz",
+        "totalSales": 940
     },
     {
         "name": "Blueberries Milk",
@@ -30,7 +32,8 @@
         "image": "https://i.ibb.co.com/zrLbrQg/blueberries-milk.jpg",
         "isFeatured": false,
         "description": "Combines dairy with blueberry benefits for added calcium and vitamin D, while offering antioxidant properties.",
-        "unit": "1 quart"
+        "unit": "1 quart",
+        "totalSales": 792
     },
     {
         "name": "Broccoli",
@@ -41,7 +44,8 @@
         "image": "https://i.ibb.co.com/HNnZPJ8/broccoli.png",
         "isFeatured": false,
         "description": "Packed with vitamins C and K, supports bone health and boosts immune system.",
-        "unit": "1 bunch"
+        "unit": "1 bunch",
+        "totalSales": 688
     },
     {
         "name": "Cabbage",
@@ -52,7 +56,8 @@
         "image": "https://i.ibb.co.com/SVyxFZy/cabbage.jpg",
         "isFeatured": false,
         "description": "Rich in fiber and vitamins C and K, aids digestion and supports heart health.",
-        "unit": "1 head"
+        "unit": "1 head",
+        "totalSales": 630
     },
     {
         "name": "Carrots",
@@ -63,7 +68,8 @@
         "image": "https://i.ibb.co.com/jHkbknN/carrots.jpg",
         "isFeatured": true,
         "description": "High in beta-carotene and vitamin A, promotes eye health and boosts immune function.",
-        "unit": "1 lb"
+        "unit": "1 lb",
+        "totalSales": 782
     },
     {
         "name": "Cherries",
@@ -74,7 +80,8 @@
         "image": "https://i.ibb.co.com/ZJJCKWN/cherries.jpg",
         "isFeatured": true,
         "description": "Rich in antioxidants and anti-inflammatory compounds, supports joint health and reduces muscle soreness.",
-        "unit": "1 lb"
+        "unit": "1 lb",
+        "totalSales": 893
     },
     {
         "name": "Eggplant",
@@ -85,7 +92,8 @@
         "image": "https://i.ibb.co.com/HFXm0c2/eggplant.jpg",
         "isFeatured": false,
         "description": "Contains antioxidants and fiber, supports heart health and digestion.",
-        "unit": "1 each"
+        "unit": "1 each",
+        "totalSales": 574
     },
     {
         "name": "Mixed Fruit",
@@ -96,7 +104,8 @@
         "image": "https://i.ibb.co.com/Mnzm7GY/fruit.jpg",
         "isFeatured": true,
         "description": "Provides a variety of vitamins and minerals, supports overall health and boosts energy levels.",
-        "unit": "1 lb"
+        "unit": "1 lb",
+        "totalSales": 1008
     },
     {
         "name": "Grip",
@@ -107,7 +116,8 @@
         "image": "https://i.ibb.co.com/D7K1vSw/grip.jpg",
         "isFeatured": false,
         "description": "Offers essential vitamins and antioxidants, supports immune health and reduces inflammation.",
-        "unit": "1 lb"
+        "unit": "1 lb",
+        "totalSales": 546
     },
     {
         "name": "Lettuce",
@@ -118,7 +128,8 @@
         "image": "https://i.ibb.co.com/df9ZF05/lettuce.jpg",
         "isFeatured": false,
         "description": "Low in calories and high in vitamins A and K, supports hydration and bone health.",
-        "unit": "1 head"
+        "unit": "1 head",
+        "totalSales": 660
     },
     {
         "name": "Milk",
@@ -129,7 +140,8 @@
         "image": "https://i.ibb.co.com/L87XrYJ/milk.jpg",
         "isFeatured": false,
         "description": "Rich in calcium and vitamin D, supports strong bones and teeth, and aids muscle function.",
-        "unit": "1 quart"
+        "unit": "1 quart",
+        "totalSales": 1035
     },
     {
         "name": "Onions",
@@ -140,7 +152,8 @@
         "image": "https://i.ibb.co.com/9N0NdxR/onions.jpg",
         "isFeatured": false,
         "description": "Contains antioxidants and sulfur compounds, supports heart health and immune function.",
-        "unit": "1 lb"
+        "unit": "1 lb",
+        "totalSales": 588
     },
     {
         "name": "Oranges",
@@ -151,7 +164,8 @@
         "image": "https://i.ibb.co.com/fnXrXK9/oranges.jpg",
         "isFeatured": true,
         "description": "Excellent source of vitamin C and fiber, boosts immune system and supports skin health.",
-        "unit": "1 each"
+        "unit": "1 each",
+        "totalSales": 828
     },
     {
         "name": "Plums",
@@ -162,7 +176,8 @@
         "image": "https://i.ibb.co.com/VJr66zM/plums.jpg",
         "isFeatured": false,
         "description": "Provides vitamins and antioxidants, aids digestion and supports bone health.",
-        "unit": "1 lb"
+        "unit": "1 lb",
+        "totalSales": 688
     },
     {
         "name": "Potatoes",
@@ -173,7 +188,8 @@
         "image": "https://i.ibb.co.com/QcJYS3f/potatoes.jpg",
         "isFeatured": false,
         "description": "Good source of vitamins C and B6, supports energy production and digestive health.",
-        "unit": "1 lb"
+        "unit": "1 lb",
+        "totalSales": 855
     },
     {
         "name": "Raspberries",
@@ -184,7 +200,8 @@
         "image": "https://i.ibb.co.com/cJpK0rt/raspberries.jpg",
         "isFeatured": true,
         "description": "Rich in antioxidants and vitamins, supports heart health and enhances skin complexion.",
-        "unit": "6 oz"
+        "unit": "6 oz",
+        "totalSales": 987
     },
     {
         "name": "Strawberries",
@@ -194,40 +211,8 @@
         "price": 5.49,
         "image": "https://i.ibb.co.com/VNFz3Zy/strawberries.jpg",
         "isFeatured": true,
-        "description": "High in vitamin C and antioxidants, supports immune health and improves heart health.",
-        "unit": "1 lb"
-    },
-    {
-        "name": "Tomatoes",
-        "category": "Vegetables",
-        "rating": 4.4,
-        "totalRatingPersons": 170,
-        "price": 2.25,
-        "image": "https://i.ibb.co.com/fNcNMtQ/tomatoes.jpg",
-        "isFeatured": false,
-        "description": "Rich in lycopene and vitamins C and K, supports heart health and reduces risk of certain cancers.",
-        "unit": "1 lb"
-    },
-    {
-        "name": "Mixed Vegetables",
-        "category": "Vegetables",
-        "rating": 4.5,
-        "totalRatingPersons": 190,
-        "price": 3.99,
-        "image": "https://i.ibb.co.com/7Rc3V9T/vegetable.jpg",
-        "isFeatured": false,
-        "description": "Provides a variety of vitamins and minerals, supports overall health and boosts energy.",
-        "unit": "1 lb"
-    },
-    {
-        "name": "Watermelon",
-        "category": "Fruits",
-        "rating": 4.6,
-        "totalRatingPersons": 220,
-        "price": 6.99,
-        "image": "https://i.ibb.co.com/XLs9hPr/watermelon.jpg",
-        "isFeatured": true,
-        "description": "Hydrating and refreshing, rich in vitamins A and C, supports skin health and hydration.",
-        "unit": "1 each"
+        "description": "High in vitamin C and antioxidants, supports immune function and promotes skin health.",
+        "unit": "1 lb",
+        "totalSales": 1152
     }
 ]
