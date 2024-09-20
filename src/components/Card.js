@@ -38,10 +38,10 @@ const Card = ({ product }) => {
                 </div>
                 <h3 className="text-2xl text-[#86bc42]">${price}</h3>
             </div>
-            <div className="absolute  opacity-0  gap-2 transition transform translate-y-4  duration-1000 group-hover:opacity-100 group-hover:translate-y-0 flex top-1/2 left-1/4 right-1/4 ">
-                <button className="btn btn-circle bg-[#f3e8d6] text-[#86bc42] hover:bg-[#86bc42] border-none text-lg hover:text-[#f3e8d6]"><MdOutlineShoppingBag /></button>
-                <button className="btn btn-circle bg-[#f3e8d6] text-[#86bc42] hover:bg-[#86bc42] border-none text-lg hover:text-[#f3e8d6]"><FaEye /></button>
-                <button className="btn btn-circle bg-[#f3e8d6] text-[#86bc42] hover:bg-[#86bc42] border-none text-lg hover:text-[#f3e8d6]"><FaRegHeart /></button>
+            <div className="absolute  opacity-0  gap-2 transition transform translate-y-4  duration-1000 group-hover:opacity-100 group-hover:translate-y-0 flex inset-0 items-center justify-center ">
+                <button className="btn inline-flex btn-circle bg-[#f3e8d6] text-[#86bc42] hover:bg-[#86bc42] border-none text-lg hover:text-[#f3e8d6]"><MdOutlineShoppingBag /></button>
+                <button className="btn inline-flex btn-circle bg-[#f3e8d6] text-[#86bc42] hover:bg-[#86bc42] border-none text-lg hover:text-[#f3e8d6]"><FaEye /></button>
+                <button className="btn inline-flex btn-circle bg-[#f3e8d6] text-[#86bc42] hover:bg-[#86bc42] border-none text-lg hover:text-[#f3e8d6]"><FaRegHeart /></button>
             </div>
         </div>
     )

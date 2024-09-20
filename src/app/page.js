@@ -6,6 +6,7 @@ import React from 'react'
 import Featured from '@/components/Featured'
 import Category from '@/components/Category'
 import TopSelling from '@/components/TopSelling'
+import Discount from '@/components/Discount'
 const Home = () => {
 
 
@@ -17,6 +18,7 @@ const Home = () => {
       <Featured />
       <Category />
       <TopSelling />
+      <Discount />
     </div>
   )
 }
