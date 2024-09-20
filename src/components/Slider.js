@@ -31,15 +31,15 @@ const Slider = ({ data }) => {
     // setTimeout(handleSlider(1), 2000)
     return (
         <div className="relative">
-            <div className="flex justify-center gap-5 items-center min-h-[560px] max-h-[560px] bg-[#f3e8d6]">
-                <div>
+            <div className="flex justify-center gap-5 items-center min-h-[560px] max-h-[560px] ">
+                <div className="z-10 bg-white bg-opacity-20">
                     <p className="uppercase font-semibold text-[#86bc42]">--- Shop our freshest</p>
                     <h1 className="text-5xl font-bold text-[#064e38] leading-[60px]">{title} <br></br> <span className="text-[#86bc42]">Everyday</span></h1>
                     <Link href={href} className=" inline-flex flex-col uppercase font-semibold text-[#222222]"> <span>Discover More</span> <span className="bg-[#222222] h-0.5 w-24"> </span> </Link>
                 </div>
-                <div className="">
-                    <Image alt="slider-1" width={560} height={560}
-                        src={image} className="w-full" />
+                <div className="w-1/2">
+                    <Image alt={title} width={500} height={400}
+                        src={image} />
                 </div>
 
             </div>

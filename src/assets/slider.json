@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Fresh Hand-Picked Vegetables",
+        "image": "https://i.ibb.co.com/WGDrns7/vegetables.png",
+        "href": "/"
+    },
+    {
+        "title": "Fresh Hand-Picked Frouts",
+        "image": "https://i.ibb.co.com/R0d2nrd/fruits.png",
+        "href": "/"
+    },
+    {
+        "title": "Fresh Hand-Picked Bakery",
+        "image": "https://i.ibb.co.com/hX9042B/bakery.png",
+        "href": "/"
+    },
+    {
+        "title": "Fresh Hand-Picked Fish",
+        "image": "https://i.ibb.co.com/mRK6W2J/fish.png",
+        "href": "/"
+    },
+    {
+        "title": "Fresh Hand-Picked Milk",
+        "image": "https://i.ibb.co.com/j4fXscZ/milk.png",
+        "href": "/"
+    }
+]

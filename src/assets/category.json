@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Bakery",
+        "image": "https://i.ibb.co.com/ZMzdKpG/bakery.png",
+        "href": "/",
+        "totalProducts": 50
+    },
+    {
+        "name": "Fish",
+        "image": "https://i.ibb.co.com/wQGY7fr/fish.png",
+        "href": "/",
+        "totalProducts": 35
+    },
+    {
+        "name": "Fruits",
+        "image": "https://i.ibb.co.com/hK6bF5X/fruits.png",
+        "href": "/",
+        "totalProducts": 120
+    },
+    {
+        "name": "Milk",
+        "image": "https://i.ibb.co.com/TwhD4WM/milk.png",
+        "href": "/",
+        "totalProducts": 80
+    },
+    {
+        "name": "Vegetables",
+        "image": "https://i.ibb.co.com/PZYX06g/vegetables.png",
+        "href": "/",
+        "totalProducts": 150
+    }
+]
