@@ -10,7 +10,7 @@ import Discount from '@/components/Discount'
 import LatestBlog from '@/components/LatestBlog'
 import WhatsAppOrder from '@/components/WhatsAppOrder'
 import Footer from '@/components/Footer'
-import FooterBotton from '@/components/FooterBotton'
+import FooterBotton from '@/components/FooterBottom'
 const Home = () => {
 
 

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import logo from '../assets/image/logo.png'
 import { FaApple, FaFacebookF, FaGooglePlay, FaInstagram, FaPinterestP, FaTwitter, FaYoutube } from 'react-icons/fa6'
-import FooterBotton from './FooterBotton'
+import FooterBotton from './FooterBottom'
 const Footer = () => {
 
     return (
