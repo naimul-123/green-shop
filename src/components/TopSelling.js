@@ -68,10 +68,10 @@ const TopSelling = () => {
                     )}
                 </div>
 
-                <div className="flex justify-center my-3">
+                <div className="my-3">
                     {[...Array(totalSlice)].map((_, id) => {
 
-                        return (<button className="p-0 text-3xl" key={id} onClick={() => setCurrentSlice(id + 1)}>{id + 1 === currentSlice ? <FaRegDotCircle className="" /> : <GoDotFill className="text-[#ddc2b9]" />}</button>)
+                        return (<button className="p-0 text-3xl inline-flex" key={id} onClick={() => setCurrentSlice(id + 1)}>{id + 1 === currentSlice ? <FaRegDotCircle className="inline" /> : <GoDotFill className="text-[#ddc2b9]" />}</button>)
                     }
                     )
                     }

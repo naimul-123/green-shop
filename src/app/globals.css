@@ -16,7 +16,3 @@
 .top-nav {
   @apply bg-[#86bc42]
 }
-
-.nav-menu {
-  @apply uppercase space-x-4 text-lg font-semibold
-}

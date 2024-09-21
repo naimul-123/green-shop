@@ -24,9 +24,9 @@ const Card = ({ product }) => {
     } = product
 
     return (
-        <div className="card glass max-w-[264px] min-w-fit group">
+        <div className="card glass group">
             <figure>
-                <Image src={image} alt={name} width={264} height={218} className="group-hover:scale-110 overflow-hidden duration-1000 transform" />
+                <Image src={image} alt={name} width="264" height="218" className="group-hover:scale-110 overflow-hidden duration-1000 transform w-full" />
 
             </figure>
             <div className="card-body">

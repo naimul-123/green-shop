@@ -18,8 +18,8 @@ const LatestBlog = () => {
                     const { id, title, writer, blog_time, image } = blog;
                     return (
                         <div key={id} className="group">
-                            <div className="h-[220px] w-[330px] relative overflow-hidden">
-                                <Image src={image} alt={title} width="330" height="220" className="group-hover:scale-105 transition-transform duration-1000 h-full" />
+                            <div className="h-[220px] relative overflow-hidden">
+                                <Image src={image} alt={title} width="330" height="220" className="group-hover:scale-105 transition-transform duration-1000 w-full h-full" />
 
                             </div>
                             <div className=" px-8 py-7">

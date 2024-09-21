@@ -31,21 +31,21 @@ const Slider = ({ data }) => {
     // setTimeout(handleSlider(1), 2000)
     return (
         <div className="relative">
-            <div className="flex justify-center gap-5 items-center min-h-[560px] max-h-[560px] ">
-                <div className="z-10 bg-white bg-opacity-20">
+            <div className="flex  flex-col md:flex-row justify-center gap-5 items-center h-full  ">
+                <div className="bg-white bg-opacity-20 space-y-2 text-center md:text-left w-full">
                     <p className="uppercase font-semibold text-[#86bc42]">--- Shop our freshest</p>
-                    <h1 className="text-5xl font-bold text-[#064e38] leading-[60px]">{title} <br></br> <span className="text-[#86bc42]">Everyday</span></h1>
+                    <h1 className="text-3xl lg:text-5xl font-bold text-[#064e38] md:leading-[60px]">{title} <br></br> <span className="text-[#86bc42]">Everyday</span></h1>
                     <Link href={href} className=" inline-flex flex-col uppercase font-semibold text-[#222222]"> <span>Discover More</span> <span className="bg-[#222222] h-0.5 w-24"> </span> </Link>
                 </div>
-                <div className="w-1/2">
-                    <Image alt={title} width={500} height={400}
+                <div className="shrink-0 w-full overflow-hidden  md:w-1/2">
+                    <Image alt={title} width="500" height="500" className="w-full"
                         src={image} />
                 </div>
 
             </div>
 
-            <button className="btn btn-circle absolute top-[50%]  left-10" onClick={() => handleSlider(-1)}><FaAngleLeft /></button>
-            <button className="btn btn-circle  absolute top-[50%]  right-10" onClick={() => handleSlider(1)}><FaAngleRight /></button>
+            <button className="btn btn-circle absolute top-[50%] left-0" onClick={() => handleSlider(-1)}><FaAngleLeft /></button>
+            <button className="btn btn-circle  absolute top-[50%] right-0" onClick={() => handleSlider(1)}><FaAngleRight /></button>
             <div className="absolute bottom-4 left-10">
                 {data.map((d, id) => <button className="p-0 text-3xl" onClick={() => setSlideNum(id)} key={id}>{id === slideNum ? <FaRegDotCircle className="" /> : <GoDotFill className="text-[#ddc2b9]" />}</button>)}
             </div>

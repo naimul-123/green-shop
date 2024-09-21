@@ -7,7 +7,7 @@ import { FaGift } from "react-icons/fa6";
 const Services = () => {
     return (
         <div className="bg-[#f8f5ee] justify-center grid grid-cols-1 sm:grid-cols-2 w-full mx-auto xl:grid-cols-4 px-10 py-5 gap-4">
-            <div className="flex items-center gap-3">
+            <div className="flex flex-col sm:flex-row justify-center text-center sm:text-left items-center gap-3">
                 <div>
                     <MdOutlineShoppingCart className="text-5xl text-[#86bc42]" />
                 </div>
@@ -16,7 +16,7 @@ const Services = () => {
                     <p className="text-[#a6a5a3] ">Free delivery for all orders over $140</p>
                 </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-col sm:flex-row justify-center text-center sm:text-left items-center gap-3">
                 <div>
                     <TfiHeadphoneAlt className="text-5xl text-[#86bc42]" />
                 </div>
@@ -25,7 +25,7 @@ const Services = () => {
                     <p className="text-[#a6a5a3] ">Friendly 24/7 Customer Support</p>
                 </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-col sm:flex-row justify-center text-center sm:text-left items-center gap-3">
                 <div>
                     <LuShieldCheck className="text-5xl text-[#86bc42]" />
                 </div>
@@ -35,7 +35,7 @@ const Services = () => {
 
                 </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-col sm:flex-row justify-center text-center sm:text-left items-center gap-3">
                 <div>
                     <FaGift className="text-5xl text-[#86bc42]" />
                 </div>

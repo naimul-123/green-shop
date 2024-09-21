@@ -26,7 +26,7 @@ const Home = () => {
       <LatestBlog />
       <WhatsAppOrder />
       <Footer />
-      <FooterBotton />
+
     </div>
   )
 }
