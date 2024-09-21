@@ -17,8 +17,8 @@ const Category = () => {
                     const { name, image, href, totalProducts } = product;
                     return (
                         <Link href={href} key={id} className="group">
-                            <figure className="bg-white  h-[218px]">
-                                <Image src={image} alt={name} width={264} height={218} className="group-hover:scale-110 overflow-hidden duration-1000 transform" />
+                            <figure className="bg-white w-[264px]  h-[218px]">
+                                <Image src={image} alt={name} width="264" height="264" className="group-hover:scale-110 overflow-hidden duration-1000 transform" />
 
                             </figure>
                             <div className="card-body bg-transparent justify-center items-center">

@@ -10,8 +10,10 @@ import { useState } from 'react';
 import Card from './Card';
 import { useEffect } from 'react';
 const TopSelling = () => {
+    const [isClient, setIsclient] = useState(false)
     const [currentSlice, setCurrentSlice] = useState(1)
     const [sliceNum, setSliceNum] = useState(1);
+
     const topselling = products.sort((a, b) => b.totalSales - a.totalSales).slice(0, 20);
 
 
@@ -33,6 +35,7 @@ const TopSelling = () => {
     }
 
     useEffect(() => {
+        setIsclient(true)
         if (typeof window !== undefined) {
             const handleResize = () => setSliceNum(getSliceNumber());
             handleResize();
@@ -48,7 +51,9 @@ const TopSelling = () => {
 
     const slideData = topselling.slice((currentSlice - 1) * sliceNum, (currentSlice * sliceNum));
 
-
+    if (!isClient) {
+        return null;
+    }
 
     return (
         <div className="px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-40 py-4 md:py-8 lg:py-12 xl:py-16 2xl:py-24 ">

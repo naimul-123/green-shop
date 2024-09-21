@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "title": "Crispy Fish Fry Recipe",
+        "writer": "John Doe",
+        "blog_time": "2024-09-20T14:00:00",
+        "recipe_details": [
+            "Clean the fish fillets thoroughly and pat them dry.",
+            "In a bowl, mix flour, salt, pepper, and your favorite spices.",
+            "Coat the fish fillets in the flour mixture.",
+            "Heat oil in a frying pan over medium heat.",
+            "Fry the fish fillets until golden brown and crispy on both sides.",
+            "Serve hot with tartar sauce or a dipping sauce of your choice."
+        ],
+        "image": "https://i.ibb.co.com/NybZG3y/Fish-fry.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Roasted Duck with Spices",
+        "writer": "Jane Smith",
+        "blog_time": "2024-09-19T10:30:00",
+        "recipe_details": [
+            "Preheat your oven to 350°F (175°C).",
+            "Rub the duck with salt, pepper, and a mix of your favorite spices.",
+            "Place the duck in a roasting pan and roast for 2 hours.",
+            "Baste the duck with its own juices every 30 minutes.",
+            "Remove from the oven and let it rest for 15 minutes before carving.",
+            "Serve with roasted vegetables and your choice of side."
+        ],
+        "image": "https://i.ibb.co.com/4pPzpGb/meat-duck.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Mushrooms in a French Sauce",
+        "writer": "Emily Johnson",
+        "blog_time": "2024-09-18T16:15:00",
+        "recipe_details": [
+            "Clean and slice the mushrooms.",
+            "In a pan, melt butter and sauté the mushrooms until golden brown.",
+            "Add garlic, thyme, and cream to the pan and simmer until the sauce thickens.",
+            "Season with salt and pepper to taste.",
+            "Serve the mushrooms with a sprinkle of fresh parsley."
+        ],
+        "image": "https://i.ibb.co.com/jvrjr7V/Mushrooms-French-dish.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Potato Casserole Delight",
+        "writer": "Michael Lee",
+        "blog_time": "2024-09-17T12:45:00",
+        "recipe_details": [
+            "Preheat the oven to 375°F (190°C).",
+            "Peel and slice the potatoes thinly.",
+            "Layer the potatoes in a baking dish, sprinkling cheese and seasoning between each layer.",
+            "Pour cream over the potatoes and top with more cheese.",
+            "Bake for 45-50 minutes until the top is golden and crispy.",
+            "Let it cool slightly before serving."
+        ],
+        "image": "https://i.ibb.co.com/Cm354L9/Potato-casserole.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Healthy Roasted Vegetables",
+        "writer": "Sarah Brown",
+        "blog_time": "2024-09-16T09:00:00",
+        "recipe_details": [
+            "Preheat your oven to 400°F (200°C).",
+            "Chop your favorite vegetables into bite-sized pieces.",
+            "Toss the vegetables in olive oil, salt, pepper, and herbs.",
+            "Spread them on a baking sheet in a single layer.",
+            "Roast for 20-25 minutes, flipping halfway through.",
+            "Serve hot as a side dish or on their own."
+        ],
+        "image": "https://i.ibb.co.com/mBR5Wfw/vegetables.jpg"
+    }
+]
